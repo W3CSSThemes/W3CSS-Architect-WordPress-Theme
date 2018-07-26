@@ -1,31 +1,14 @@
-<!DOCTYPE html>
-<html>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body>
+<?php get_header(); ?>
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="#home" class="w3-bar-item w3-button"><b>BR</b> Architects</a>
-    <!-- Float links to the right. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
-      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-      <a href="#about" class="w3-bar-item w3-button">About</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-    </div>
-  </div>
-</div>
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-  <img class="w3-image" src="images/architect.jpg" alt="Architecture" width="1500" height="800">
+  <img class="w3-image" src="<?php echo get_template_directory_uri(); ?>/images/architect.jpg" alt="Architecture" width="1500" height="800">
   <div class="w3-display-middle w3-margin-top w3-center">
     <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>BR</b></span> <span class="w3-hide-small w3-text-light-grey">Architects</span></h1>
   </div>
 </header>
+
 
 <!-- Page content -->
 <div class="w3-content w3-padding" style="max-width:1564px">
@@ -39,25 +22,25 @@
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
-        <img src="images/house5.jpg" alt="House" style="width:100%">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/house5.jpg" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
-        <img src="images/house2.jpg" alt="House" style="width:100%">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/house2.jpg" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
-        <img src="images/house3.jpg" alt="House" style="width:100%">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/house3.jpg" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
-        <img src="images/house4.jpg" alt="House" style="width:100%">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/house4.jpg" alt="House" style="width:100%">
       </div>
     </div>
   </div>
@@ -66,25 +49,25 @@
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
-        <img src="images/house2.jpg" alt="House" style="width:99%">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/house2.jpg" alt="House" style="width:99%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
-        <img src="images/house5.jpg" alt="House" style="width:99%">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/house5.jpg" alt="House" style="width:99%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
-        <img src="images/house4.jpg" alt="House" style="width:99%">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/house4.jpg" alt="House" style="width:99%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
-        <img src="images/house3.jpg" alt="House" style="width:99%">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/house3.jpg" alt="House" style="width:99%">
       </div>
     </div>
   </div>
@@ -100,28 +83,28 @@
 
   <div class="w3-row-padding w3-grayscale">
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="images/team2.jpg" alt="John" style="width:100%">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/team2.jpg" alt="John" style="width:100%">
       <h3>John Doe</h3>
       <p class="w3-opacity">CEO & Founder</p>
       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
       <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="images/team1.jpg" alt="Jane" style="width:100%">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/team1.jpg" alt="Jane" style="width:100%">
       <h3>Jane Doe</h3>
       <p class="w3-opacity">Architect</p>
       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
       <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="images/team3.jpg" alt="Mike" style="width:100%">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/team3.jpg" alt="Mike" style="width:100%">
       <h3>Mike Ross</h3>
       <p class="w3-opacity">Architect</p>
       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
       <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="images/team4.jpg" alt="Dan" style="width:100%">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/team4.jpg" alt="Dan" style="width:100%">
       <h3>Dan Star</h3>
       <p class="w3-opacity">Architect</p>
       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
@@ -150,34 +133,4 @@
 <!-- Google Map -->
 <div id="googleMap" class="w3-grayscale" style="width:100%;height:450px;"></div>
 
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-16">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer>
-
-<!-- Add Google Maps -->
-<script>
-function myMap()
-{
-  myCenter=new google.maps.LatLng(41.878114, -87.629798);
-  var mapOptions= {
-    center:myCenter,
-    zoom:12, scrollwheel: false, draggable: false,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
-
-  var marker = new google.maps.Marker({
-    position: myCenter,
-  });
-  marker.setMap(map);
-}
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
-
-</body>
-</html>
+<?php get_footer(); ?>
